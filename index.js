@@ -20,7 +20,7 @@ module.exports = class JSS extends Plugin {
     );
     inject("JSSApply", MiniPopover, "default", (args, res) => {
       const props = findInReactTree(res, (r) => r && r.message && r.setPopout);
-      if (!props || props.channel.id !== "609038134637887535") {
+      if (!props || props.channel.id !== "755005784999329883") {
         return res;
       }
 
